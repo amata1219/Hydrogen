@@ -12,7 +12,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         //APIを取得する
-        //pluginsフォルダに本プラグインが導入されており、plugin.ymlも正しく設定されていれば、無検査キャストでも問題ありません
+        //pluginsフォルダに本プラグインが導入されており、plugin.ymlも正しく設定されていれば、未検査キャストでも問題ありません
         RagnarokAPI ragnarokAPI = (RagnarokAPI) getServer().getPluginManager().getPlugin("Ragnarok");
 
         //アイテムの一意な識別子を設定した上で登録する
