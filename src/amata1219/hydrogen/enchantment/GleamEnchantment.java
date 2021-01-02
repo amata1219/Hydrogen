@@ -1,4 +1,4 @@
-package amata1219.hydrogen;
+package amata1219.hydrogen.enchantment;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;

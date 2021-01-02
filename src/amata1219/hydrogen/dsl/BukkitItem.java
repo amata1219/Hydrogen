@@ -1,5 +1,7 @@
-package amata1219.hydrogen;
+package amata1219.hydrogen.dsl;
 
+import amata1219.hydrogen.Constants;
+import amata1219.hydrogen.enchantment.GleamEnchantment;
 import com.google.common.collect.Iterables;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
