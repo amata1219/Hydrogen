@@ -1,4 +1,4 @@
-package amata1219.hydrogen.enchantment;
+package amata1219.ragnarok.enchantment;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;

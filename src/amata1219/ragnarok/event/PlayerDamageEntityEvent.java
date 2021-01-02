@@ -1,4 +1,4 @@
-package amata1219.hydrogen.event;
+package amata1219.ragnarok.event;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;

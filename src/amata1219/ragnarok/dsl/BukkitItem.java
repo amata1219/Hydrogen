@@ -1,7 +1,7 @@
-package amata1219.hydrogen.dsl;
+package amata1219.ragnarok.dsl;
 
-import amata1219.hydrogen.Constants;
-import amata1219.hydrogen.enchantment.GleamEnchantment;
+import amata1219.ragnarok.Constants;
+import amata1219.ragnarok.enchantment.GleamEnchantment;
 import com.google.common.collect.Iterables;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;

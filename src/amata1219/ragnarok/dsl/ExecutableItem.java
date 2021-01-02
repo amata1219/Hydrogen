@@ -1,6 +1,6 @@
-package amata1219.hydrogen.dsl;
+package amata1219.ragnarok.dsl;
 
-import amata1219.hydrogen.event.PlayerDamageEntityEvent;
+import amata1219.ragnarok.event.PlayerDamageEntityEvent;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerItemConsumeEvent;
@@ -8,11 +8,11 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.function.Consumer;
 
-public abstract class ExecutableBukkitItem {
+public abstract class ExecutableItem {
 
     public final String id;
 
-    protected ExecutableBukkitItem(String identifier) {
+    protected ExecutableItem(String identifier) {
         this.id = identifier;
     }
 
@@ -24,15 +24,15 @@ public abstract class ExecutableBukkitItem {
         return bukkitItem.build(id);
     }
 
-    public void onClick(Consumer<PlayerInteractEvent> action) {
+    public void onClick(PlayerInteractEvent action) {
 
     }
 
-    public void onConsume(Consumer<PlayerItemConsumeEvent> action) {
+    public void onConsume(PlayerItemConsumeEvent action) {
 
     }
 
-    public void onAttackEntity(Consumer<PlayerDamageEntityEvent> action) {
+    public void onDamageEntity(PlayerDamageEntityEvent action) {
 
     }
 

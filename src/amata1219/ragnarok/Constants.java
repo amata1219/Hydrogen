@@ -1,4 +1,4 @@
-package amata1219.hydrogen;
+package amata1219.ragnarok;
 
 import org.bukkit.NamespacedKey;
 
