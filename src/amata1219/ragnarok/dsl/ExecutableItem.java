@@ -12,11 +12,11 @@ public abstract class ExecutableItem {
 
     public final String id;
 
-    protected ExecutableItem(String identifier) {
-        this.id = identifier;
+    public ExecutableItem(String id) {
+        this.id = id;
     }
 
-    public abstract ItemStack buildItemStack(Player user);
+    public abstract ItemStack buildItemStack(Player executor);
 
     protected ItemStack define(Consumer<BukkitItem> settings) {
         BukkitItem bukkitItem = new BukkitItem();
@@ -24,15 +24,15 @@ public abstract class ExecutableItem {
         return bukkitItem.build(id);
     }
 
-    public void onClick(PlayerInteractEvent action) {
+    public void onClick(PlayerInteractEvent event) {
 
     }
 
-    public void onConsume(PlayerItemConsumeEvent action) {
+    public void onConsume(PlayerItemConsumeEvent event) {
 
     }
 
-    public void onDamageEntity(PlayerDamageEntityEvent action) {
+    public void onDamageEntity(PlayerDamageEntityEvent event) {
 
     }
 
